@@ -10,7 +10,7 @@ PRIMARY KEY(item_id)
 );
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("R vacuum cleaner", "Home and Kitchen", 199.99, 175);
+VALUES ("Roomda vacuum cleaner", "Home and Kitchen", 199.99, 175);
 
 INSERT INTO products (product_name, department_name, price, stock_quantity)
 VALUES ("Babble: Scrabble for Babies", "Toys and Games", 19.99, 7);
