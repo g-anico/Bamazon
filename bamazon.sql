@@ -9,32 +9,16 @@ stock_quantity INT NOT NULL,
 PRIMARY KEY(item_id)
 );
 
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Roomda vacuum cleaner", "Home and Kitchen", 199.99, 175);
+INSERT INTO products(product_name, department_name, price, stock_quantity)
+VALUES ("Roomda vacuum cleaner", "Home and Kitchen", 199.99, 175),
+("Babble: Scrabble for Babies", "Toys and Games", 19.99, 7),
+("Brancake Mix", "Food", 7.99, 11),
+("Ten Thousand Things I Hate About You", "Movies", 10.99, 2),
+("Nespresso Profeta", "Home and Kitchen", 78.99, 44),
+("White T-shirt", "Clothing", 9.99, 100),
+("Earbuds", "Electronics", 5.99, 80),
+("Checkers", "Toys and Games", 8.50, 800),
+("Romeo and Juliet", "Movies", 9.25, 17),
+("Gold Egg", "Novelties", 250.00, 1);
 
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Babble: Scrabble for Babies", "Toys and Games", 19.99, 7);
-
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES ("Brancake Mix", "Food", 7.99, 11);
-
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES("Ten Thousand Things I Hate About You", "Movies", 10.99, 2);
-
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES("Nespresso Profeta", "Home and Kitchen", 78.99, 44);
-
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES("White T-shirt", "Clothing", 9.99, 100);
-
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES("Earbuds", "Electronics", 5.99, 80);
-
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES("Checkers", "Toys and Games", 8.50, 800);
-
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES("Romeo and Juliet", "Movies", 9.25, 17);
-
-INSERT INTO products (product_name, department_name, price, stock_quantity)
-VALUES("Gold Egg", "Novelties", 25000, 1);
+SELECT * FROM bamazon.products;
